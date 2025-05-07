@@ -278,7 +278,7 @@ n_features_to_select = 6
 rfe = RFE(estimator=logreg, n_features_to_select=n_features_to_select)
 rfe.fit(X, y)
 ```
-![image](https://github.com/user-attachments/assets/aa664aae-9bf5-4703-a155-9b5486220f5d)
+![Screenshot 2025-05-07 204713](https://github.com/user-attachments/assets/49cd84cb-1ff4-4792-9949-3c32dd473380)
 
 ```python
 selected_features = X.columns[rfe.support_]
